@@ -1,0 +1,13 @@
+{{ $currentPage := . }}
+<nav role="navigation" class="pl-6 py-3">
+  <ul class="list pa0 nl2">
+    {{ range site.Params.Nav.item }}
+    <li class="">
+      <a href="{{ .pageRef}}" class="transition hover:translate-x-1">
+        {{/*  TODO  */}}
+        {{ .name }}
+      </a>
+    </li>
+    {{end}}
+  </ul>
+</nav>

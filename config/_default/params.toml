@@ -7,7 +7,7 @@ subtitle = "Translife"
 contentTypeName = "post"
 
 [header]
-logo = "logo.svg"
+logo = "favicon.png"
 
 [footer]
 since = 2024
@@ -56,3 +56,15 @@ enabled = true
 title = 'Github'
 icon = 'brand-github'
 link = 'https://github.com/translife-wiki/translife-wiki'
+
+
+[nav]
+[[nav.item]]
+identifier = 'about'
+name = '化妆教学'
+pageRef = '/post/dressup'
+
+[[nav.item]]
+identifier = 'installation'
+name = 'RLE相关'
+pageRef = '/post/dressup'

@@ -27,7 +27,8 @@
 			"extensions": [
 				"davidanson.vscode-markdownlint",
 				"tamasfe.even-better-toml",
-				"budparr.language-hugo-vscode"
+				"budparr.language-hugo-vscode",
+				"bradlc.vscode-tailwindcss"
 			]
 		}
 	},

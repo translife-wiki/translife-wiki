@@ -2,7 +2,7 @@ baseURL = "https://translife.wiki"
 title = "Translife wiki"
 author = "cyanopica"
 copyright = "translife.wiki"
-paginate = 5 # for demonstration of pagination
+paginate = 5                       # for demonstration of pagination
 languageCode = "en"
 defaultContentLanguage = "zh-cn"
 enableInlineShortcodes = true
@@ -11,27 +11,27 @@ enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
 
 [markup]
-  _merge = "deep"
+_merge = "deep"
 
 [taxonomies]
-category = "categories"
+# category = "categories"
 tag = "tags"
-series = "series"
+# series = "series"
 
 [privacy]
-  [privacy.vimeo]
-    disabled = false
-    simple = true
+[privacy.vimeo]
+disabled = false
+simple = true
 
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
 
-  [privacy.instagram]
-    disabled = false
-    simple = true
+[privacy.instagram]
+disabled = false
+simple = true
 
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
